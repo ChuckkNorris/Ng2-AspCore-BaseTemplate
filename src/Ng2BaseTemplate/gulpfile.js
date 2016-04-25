@@ -16,7 +16,11 @@ gulp.task('copy-node-modules', function () {
         'node_modules/angular2/bundles/angular2-polyfills.js',
         'node_modules/systemjs/dist/system.src.js',
         'node_modules/rxjs/bundles/Rx.js',
-        'node_modules/angular2/bundles/angular2.dev.js'
+        'node_modules/angular2/bundles/angular2.dev.js',
+        'node_modules/@angular2-material/checkbox/checkbox.js',
+        'node_modules/@angular2-material/button/button.js',
+         'node_modules/@angular2-material/core/core.js'
+
     ]).pipe(gulp.dest(paths.node));
     
 });

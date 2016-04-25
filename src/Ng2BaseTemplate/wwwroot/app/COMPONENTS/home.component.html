@@ -1,4 +1,10 @@
 ﻿<div>
-    <input [(ngModel)]="name" />
-    My name is {{name}}
+    <input md-input [(ngModel)]="name" />
+    My name is {{name}} <br/>
+
+    <p>Angular Material 2</p>
+    <md-checkbox checked="true" label="Do you even?">Bro, do you even?</md-checkbox>
+    <button md-raised-button (click)="comeAtMe()" color="primary">Come at me</button>
+    <button md-button (click)="goAway()" >Go Away</button>
+    {{gogo}}
 </div>

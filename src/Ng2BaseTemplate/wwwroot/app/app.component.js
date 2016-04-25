@@ -30,7 +30,8 @@ System.register(['angular2/core', 'angular2/router', './COMPONENTS/home.componen
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n        <a [routerLink]=\"['Home']\">Home</a>\n        <div>hello there, bro!</div>\n<input [(ngModel)]=\"myName\" /> {{myName}} is great!\n    <router-outlet></router-outlet>\n    ",
+                        templateUrl: 'app/app.component.html',
+                        styleUrls: ['app/app.component.css'],
                         directives: [router_1.ROUTER_DIRECTIVES],
                         providers: [router_1.ROUTER_PROVIDERS]
                     }),
@@ -45,4 +46,4 @@ System.register(['angular2/core', 'angular2/router', './COMPONENTS/home.componen
         }
     }
 });
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=app.component.js.map

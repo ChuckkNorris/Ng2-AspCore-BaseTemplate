@@ -4,18 +4,14 @@ import {HomeComponent} from './COMPONENTS/home.component';
 
 @Component({
     selector: 'my-app',
-    template: `
-        <a [routerLink]="['Home']">Home</a>
-        <div>hello there, bro!</div>
-<input [(ngModel)]="myName" /> {{myName}} is great!
-    <router-outlet></router-outlet>
-    `,
+    templateUrl: 'app/app.component.html',
+    styleUrls: ['app/app.component.css'],
     directives: [ROUTER_DIRECTIVES],
     providers: [ROUTER_PROVIDERS]
 })
 @RouteConfig([
-        {name: 'Home', path:'/', useAsDefault: true, component: HomeComponent}
-    ])
+    { name: 'Home', path: '/', useAsDefault: true, component: HomeComponent }
+])
 export class AppComponent {
     nyName: string;
 }

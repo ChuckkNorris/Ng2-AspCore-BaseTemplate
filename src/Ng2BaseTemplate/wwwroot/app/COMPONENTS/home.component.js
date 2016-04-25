@@ -18,9 +18,18 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
+            //import {MdCheckbox} from '@angular2-material/checkbox';
+            //import {MdInput} from '@angular2-material/input';
+            //import {MdButton} from '@angular2-material/button';
             HomeComponent = (function () {
                 function HomeComponent() {
                 }
+                HomeComponent.prototype.comeAtMe = function () {
+                    this.gogo = 'Comin\' your way boss';
+                };
+                HomeComponent.prototype.goAway = function () {
+                    this.gogo = 'gadget';
+                };
                 HomeComponent = __decorate([
                     core_1.Component({
                         selector: 'home-component',
