@@ -19,7 +19,9 @@ gulp.task('copy-node-modules', function () {
         'node_modules/angular2/bundles/angular2.dev.js',
         'node_modules/@angular2-material/checkbox/checkbox.js',
         'node_modules/@angular2-material/button/button.js',
-         'node_modules/@angular2-material/core/core.js'
+        'node_modules/@angular2-material/core/core.js',
+        'node_modules/ng2rest/ng2rest.js',
+        'node_modules/es6-promise/dist/es6-promise.js',
 
     ]).pipe(gulp.dest(paths.node));
     
