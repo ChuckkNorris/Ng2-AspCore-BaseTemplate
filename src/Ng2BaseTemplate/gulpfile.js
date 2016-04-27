@@ -26,3 +26,9 @@ gulp.task('copy-node-modules', function () {
     ]).pipe(gulp.dest(paths.node));
     
 });
+
+gulp.task('compile-typescript', function () {
+    console.log('Compiling TypeScript');
+ 
+
+});
