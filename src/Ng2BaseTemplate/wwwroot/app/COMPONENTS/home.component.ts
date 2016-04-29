@@ -11,9 +11,9 @@
 export class HomeComponent {
     gogo: string;
     comeAtMe() {
-        this.gogo = 'Comin\' your way boss';
+        this.gogo = "Comin' your way bosses";
     }
     goAway() {
-        this.gogo = 'gadget';
+        this.gogo = 'Fine, be that way';
     }
 }

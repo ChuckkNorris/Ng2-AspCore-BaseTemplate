@@ -25,10 +25,10 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 function HomeComponent() {
                 }
                 HomeComponent.prototype.comeAtMe = function () {
-                    this.gogo = 'Comin\' your way boss';
+                    this.gogo = 'Comin\' your way bosses';
                 };
                 HomeComponent.prototype.goAway = function () {
-                    this.gogo = 'gadget';
+                    this.gogo = 'Fine, be that way';
                 };
                 HomeComponent = __decorate([
                     core_1.Component({
